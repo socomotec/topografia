@@ -1,0 +1,235 @@
+body {
+      position: relative;
+  }
+
+#page-top{
+	background-image: url("../imagenes/topo.jpg");
+    /* Nos aseguramos que la imagen de fondo este centrada vertical y
+    horizontalmente en todo momento */
+    background-position: center center;
+    /* La imagen de fondo no se repite 
+    background-repeat: no-repeat;
+    /* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+     la altura del contenido supere la altura de la imagen. */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+     del navegador */
+    background-size: cover;
+    /* Fijamos un color de fondo para que se muestre mientras se está
+    cargando la imagen de fondo o si hay problemas para cargarla  */
+    background-color: #464646;
+
+}
+
+#contacto{
+    background-image: url("../imagenes/contac.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.img-contacto{
+    height: 110px;
+    width: 110px;
+}
+.zoom-contac{
+    transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+}
+.zoom-contac:hover{
+    transform : scale(1.05);
+    -moz-transform : scale(1.05); 
+    -webkit-transform : scale(1.05); 
+    -o-transform : scale(1.05); 
+    -ms-transform : scale(1.05); 
+    }
+#mensaje{
+    background: #FFA734;
+    padding: 10px;
+    padding-right: 20px;
+    box-shadow: 2px 2px 5px #999;
+
+}
+.target{
+    background: #FFA734;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #999
+}
+
+.textarea{
+
+    resize:none;
+}
+
+.full{    
+    height: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    
+}
+/*cqwhqwe*/
+.img-principal{
+    min-height: 50px;
+    margin-top: -15px;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.img-principal-md{
+    margin-top: -10px;
+    min-height: 50px;
+    max-width: 100px;
+    max-height: 150px;
+}
+
+.navbar-brand> img {
+      max-height: 100%;
+      height: 100%;
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+
+.navbar-default {
+    
+    border-color: transparent;
+    background-color: #222;
+
+}
+/*  color y tipo de fuente*/
+.navbar-default .navbar-brand{
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #EE9725;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #B67520;
+    background-color: #EE9725;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #EE9725;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    
+    background-color: transparent;
+    background: rgba(0,0,0,0);
+ 	color: #EE9725;
+ 	box-shadow: inset 0 0 0 3px #EE9725;
+
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #F1AC52;
+}
+
+@media (min-width:  991px) {
+	.zoom{
+        transition: 0.5s ease;
+        -moz-transition: 0.5s ease;
+        -webkit-transition: 0.5s ease;
+        -o-transition: 0.5s ease;
+    }
+    .zoom:hover{
+        transform : scale(1.1);
+        -moz-transform : scale(1.1); 
+        -webkit-transform : scale(1.1); 
+        -o-transform : scale(1.1); 
+        -ms-transform : scale(1.1); 
+    }
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+	
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+
+}
+/*
+.bajo li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.bajo{
+	background: #4A4545;
+}*/
+#resena{
+
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+ #nosotros {
+    background-image: url("../imagenes/fondo.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 50px;
+ }
+ #calidad {
+ 	 background-color: #00bcd4;
+ }
+ #servicios {
+ 	 background-color: #ff9800;
+ }
+ #areatrabajo {
+ 	 background-color: #673ab7;
+ }
+ #galeria {
+    background-image: url("../imagenes/fondo_2.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 50px;
+ }
+ #contacto {
+ 	 background-color: #ff9800;
+ }
