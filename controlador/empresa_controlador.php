@@ -46,7 +46,7 @@
 
 	function buscar_galeria_imagenes(){
 
-		$modelo_empresa = new empresa_modeo();
+		$modelo_empresa = new empresa_modelo();
 
 		$datos = $modelo_empresa->buscar_imagen_galeria();
 

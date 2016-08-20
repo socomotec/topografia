@@ -71,7 +71,7 @@
                             <a href="#"> <i class="fa fa-industry" aria-hidden="true"></i> Áreas de Trabajo</a>
                         </li>
                         <li>
-                            <a href="#"> <i class="fa fa-picture-o" aria-hidden="true"></i> Galería </a>
+                            <a href="galeria.php" target="contenido"> <i class="fa fa-picture-o" aria-hidden="true"></i> Galería </a>
                         </li>
                         <li>
                             <a href="contacto.php" target="contenido"><i class="fa fa-user" aria-hidden="true"></i> Contacto</a>
