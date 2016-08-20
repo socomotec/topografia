@@ -20,12 +20,62 @@ body {
     background-color: #464646;
 
 }
-
+/* Galeria img*/
+.molde{
+    padding: 2px 2px 2px 2px;
+}
+.wrap{
+    padding: 10px;
+}
+.titulo-galery>h1{
+    padding: 5px 17px 60px 30px;
+}
+.titulo-galery> h4{
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #EE9725;
+}
+.galery{
+    height: 350px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;  
+}
+.galeria{
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    -moz-transition: all 0.7s linear;
+    -ms-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    -webkit-transition: all 0.7s linear;
+    transition: all 0.7s linear;
+}
+.wrapc{
+    padding: 10px;
+}
+.galeria:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+}
+/* contacto y footer*/
 #contacto{
+    padding-top: 30px;
+    background: #EE8825; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#EE8825, #EDBF83); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EE8825, #EDBF83); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EE8825, #EDBF83); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EE8825, #EDBF83); /* Standard syntax */
+}
+
+.contacto{
     background-image: url("../imagenes/contac.jpg");
     background-position: center center;
     background-size: cover;
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 .img-contacto{
     height: 110px;
@@ -45,22 +95,36 @@ body {
     -ms-transform : scale(1.05); 
     }
 #mensaje{
-    background: #FFA734;
+    background: #FFFFFF;
     padding: 10px;
-    padding-right: 20px;
     box-shadow: 2px 2px 5px #999;
 
 }
 .target{
-    background: #FFA734;
+    background: #FFFFFF;
     padding: 10px;
-    box-shadow: 2px 2px 5px #999
+    box-shadow: 2px 2px 5px #999;
 }
-
+.dueno{
+    padding: 15px;
+}
+.footer{
+    background-color: #2E2E2E;
+}
+.footer-f{
+    color:  #EE9725;
+    
+}
+.socomtec{
+    color:#FFFFFF;
+    background-color: #000000;
+}
 .textarea{
 
     resize:none;
 }
+
+
 
 .full{    
     height: 100%;
@@ -192,17 +256,6 @@ body {
     }
 
 }
-/*
-.bajo li a {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #fff;
-}
-.bajo{
-	background: #4A4545;
-}*/
 #resena{
 
     font-family: 'Open Sans Condensed', sans-serif;
@@ -229,7 +282,4 @@ body {
     background-position: center center;
     background-size: cover;
     padding-bottom: 50px;
- }
- #contacto {
- 	 background-color: #ff9800;
  }

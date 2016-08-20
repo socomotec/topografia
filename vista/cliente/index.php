@@ -14,7 +14,8 @@ require_once("../../controlador/empresa_controlador.php");
     <link rel="stylesheet" type="text/css" href="../cliente/css/estilo.css"/>
 	<script src="../js/jquery-1.11.js"></script>
 	<script src="../bootstrap/js/bootstrap.min.js"></script>
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<script src="js/scroll.js" ></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
 	
 	
@@ -86,7 +87,7 @@ require_once("../../controlador/empresa_controlador.php");
 	<div id="page-top" class="container-fluid full">
 	</div>
 	<div id="nosotros" class="container-fluid">		
-		<div class="container">
+		<div class="container scrollflow -slide-top -opacity">
 			<br class="hidden-xs hidden-sm">
 			<br class="hidden-xs hidden-sm">
 			<br>
@@ -169,84 +170,139 @@ require_once("../../controlador/empresa_controlador.php");
 		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>	
 	</div>
-	<div id="galeria" class="container-fluid full">
-		<div class="page-header text-center">
+
+
+	<div id="galeria" class="container-fluid ">
+		<div class="page-header text-center scrollflow -slide-top -opacity">
            	<h1>Galería</h1>
         </div>
-	
-		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-		<p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>	
+		<div class="container scrollflow -slide-top -opacity">
+			<div class="row">
+
+				<div class="col-xs-12  col-md-6 col-lg-4 molde">
+					<a href="#">
+						<article class="galery" style=" background-image: url('imagenes/topo.jpg');" >
+							<div class="galeria">
+								<div class="titulo-galery">
+									<h4 > 30 de Febrero 2010</h4>
+									<h1>Contru mi casa</h1>
+								</div>
+								<div class="wrapc text-center">
+									<h4>un dia vinieron a medir mi casita, quedo filete, son secos los logis.. ademas el seba se la come todaa todaa atravezada el muy gay</h4>
+								</div>	
+							</div>
+						</article>
+					</a>	
+				</div>
+				<div class="col-xs-12  col-md-6 col-lg-4 molde">
+					<a href="#">
+						<article class="galery" style=" background-image: url('imagenes/fondo_3.jpg');" >
+							<div class="galeria">
+								<div class="titulo-galery">
+									<h4> 30 de Febrero 2010</h4>
+									<h1>Contru mi casa</h1>
+								</div>
+								<div class="wrapc text-center">
+									<h4>un dia vinieron a medir mi casita, quedo filete, son secos los logis.. ademas el seba se la come todaa todaa atravezada el muy gay</h4>
+								</div>	
+							</div>
+						</article>
+					</a>	
+				</div>
+				<div class="col-xs-12  col-md-6 col-lg-4 molde">
+					<a href="#">
+						<article class="galery" style=" background-image: url('imagenes/contac.jpg');" >
+							<div class="galeria">
+								<div class="titulo-galery">
+									<h4> 30 de Febrero 2010</h4>
+									<h1>Contru mi casa</h1>
+								</div>
+								<div class="wrapc text-center">
+									<h4>un dia vinieron a medir mi casita, quedo filete, son secos los logis.. ademas el seba se la come todaa todaa atravezada el muy gay</h4>
+								</div>	
+							</div>
+						</article>
+					</a>	
+				</div>
+				
+
+			</div>
+		</div>	
 	</div>
-	<div id="contacto" class="container-fluid ">
-		<div class="page-header text-center">
-           	<h1>Contacto</h1>
+
+
+	<div id="contacto" class="container-fluid">
+		<div class="container scrollflow -slide-bottom -opacity">
+			<div class="page-header text-center ">
+           		<h1>Contacto</h1>
+        	</div>
+        	<div class="text-center">
+        		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ab, incidunt, numquam sunt aliquid nobis. Explicabo beatae vel iusto aut, cumque laudantium fugit molestiae quis soluta, unde cupiditate omnis quaerat.</h3>
+        	</div>
         </div>
-		
-		
-		
+	</div>
+	<div id="" class="container-fluid contacto">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 col-md-6">
+				<div class="col-sm-6 col-md-5 scrollflow -slide-right -opacity">
+					<div class="hidden-xs">
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</div>
 					<div class="target media zoom-contac">
 						<div class="media-left hidden-xs">
 							<img class="img img-contacto" src="imagenes/mgtopo.png" alt="Responsive image">
 						</div>
 						<div class="media-body">
-						<br class="hidden-xs" >
-							<h4><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>&nbsp;<a href="#">mgtopografia@mgtopografia.cl</a></h4>
+							<br class="hidden-xs " >
+							<h4 class="text-center" ><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>&nbsp;<a href="mailto:contacto@mgtopografia.cl">contacto@mgtopografia.cl</a></h4>
 						</div>
 					</div>
-					<div class="target media zoom-contac">
-						<div class="media-left hidden-xs">
-							<img id="img-contac" class="img img-contacto" src="imagenes/face.png" alt="Responsive image">
-						</div>
-						<div class="media-body">
-							<h5><i class="fa fa-user fa-2x" aria-hidden="true"></i>&nbsp;<strong> Miguel Gonzalez Sanhueza</strong></h5>
-							<h5><i class="fa fa-phone fa-2x" aria-hidden="true"></i>&nbsp;<a href="#">+56975479576</a></h5>
-							<h5><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>&nbsp;<a href="#">mgonzalez@mgtopogria.cl</a></h5>
-						</div>
-					</div>
-					<br>
-					
 				</div>
-				<br class="visible-xs">
-				<br class="visible-sm">
-				<div id="mensaje" class="col-sm-12 col-md-4 col-md-offset-2">
+				<br class="visible-xs visible-sm">
+
+				<div id="mensaje" class="col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-2 scrollflow -slide-left -opacity">
 					<h3 class="text-center" ><strong>Comunicate con Nosotros</strong></h3>
 					<div class="col-xs-12">
-						<h4><small>MGTopografia, Chillán, Chile</small></h4>
+						<h4><small>MGTopografía, Chillán, Chile</small></h4>
 					</div>
 					<br>
 					<br>
 					<form class="form-horizontal" role="form">
 						<div class="form-group">
 					        <label class="control-label col-xs-3">Nombre:</label>
-					        <div class="col-xs-9">
+					        <div class="col-xs-8">
 					            <input type="text" class="form-control" placeholder="Nombre">
 					        </div>
 					    </div>
 					    <div class="form-group">
-					        <label class="control-label col-xs-3" >Telefono:</label>
-					        <div class="col-xs-9">
-					            <input type="tel" class="form-control" placeholder="Telefono">
+					        <label class="control-label col-xs-3" >Teléfono:</label>
+					        <div class="col-xs-8">
+					            <input type="tel" class="form-control" placeholder="Teléfono">
 					        </div>
 					    </div>
 						<div class="form-group">
 						    <label class="control-label col-xs-3">Email:</label>
-						  	<div class="col-xs-9">
+						  	<div class="col-xs-8">
 						        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
 					        </div>
 					    </div>
 					    <div class="form-group">
 						    <label class="control-label col-xs-3">Mensaje:</label>
-						  	<div class="col-xs-9">
+						  	<div class="col-xs-8">
 						        <textarea type="text" class="form-control textarea" id="inputMensaje" rows="10" cols="40" placeholder="Mensaje"></textarea>
 					        </div>
 					    </div>			    
 				    	<br>
 					    <div class="form-group">
-					        <div class="col-xs-offset-3 col-xs-9">
-					            <input type="submit" class="btn btn-primary" value="Enviar Mensaje">
+					        <div class="col-xs-11 text-right">
+					            <button  type="submit" class="btn btn-primary" value="Enviar">  <i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; &nbsp;Enviar</button>
 					        </div>
 					    </div>
 					</form>
@@ -254,31 +310,61 @@ require_once("../../controlador/empresa_controlador.php");
 			</div>
 		</div>
 	</div>
+	<div class="container dueno">
+			<div class="row scrollflow -pop -opacity">
+				<div class="col-xs-12 col-sm-4 col-md-5 ">
+					<h3 class="hidden-xs"> Miguel Gonzalez Sanhueza</h3>
+					<h3 class="text-center visible-xs"> Miguel Gonzalez Sanhueza</h3>
+				</div>
+				<div class="col-xs-12 col-sm-8 col-md-7">
+					<div>
+					<br class="hidden-xs" >
+						<span class="col-xs-12 col-sm-5 " >
+							<h5 class="hidden-xs" ><i class="fa fa-phone fa-1x" aria-hidden="true"></i><label>&nbsp;Cel. +56975479576</label></h5>
+							<h5 class="text-center visible-xs"><i class="fa fa-phone fa-1x" aria-hidden="true"></i><label>&nbsp;Cel. +56975479576</label></h5>
+						</span>
+						<span class="col-xs-12 col-sm-7">
+							<h5 class="hidden-xs" ><i class="fa fa-envelope fa-1x" aria-hidden="true"></i><a href="mailto:mgonzalez@mgtopografia.cl">&nbsp;Email mgonzalez@mgtopografia.cl</a></h5>
+							<h5 class="text-center visible-xs"><i class="fa fa-envelope fa-1x" aria-hidden="true"></i><a href="mailto:mgonzalez@mgtopografia.cl">&nbsp;Email mgonzalez@mgtopografia.cl</a></h5>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<footer class="footer">
-      <div class="container">
-        <div class="row">
-	        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-		        <h5 class="text-muted text-center">MGTOPOGRAFÍA </h5>
-		        <hr />
-		        <a href="../administrador/panel_administrativo.php"> <h6 class=""> Administrador </h6> </a>
-		        <a href=""> <h6 class=""> Cliente </h6> </a>
-	    	</div>
-	    	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6"> 
-		        <h5 class="text-muted text-center"> <i class="fa fa-rss" aria-hidden="true"></i> RRSS: </h5>
-		        <hr />
-		        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-		        	<p class="text-right"> <i class="fa fa-facebook-official" aria-hidden="true"></i> </p>
-		        </div>
-		        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-		       	 <i class="fa fa-instagram" aria-hidden="true"></i>
-		        </div>
-	    	</div>
-        </div>
-        <div class="row">
-        	<p class="text-center"> Desarrollada por <a href="http://www.socomtec.cl"> SOCOMTEC LTDA </a> </p>
-        </div>
-      </div>
+    	<div class="container footer-f">
+        	<div class="row">
+        		<br>
+	     		<div class="col-xs-6"> 
+	     			<blockquote class="blockquote-reverse">
+  						<h4 class="">MGTOPOGRAFÍA </h4>
+  						<small>Ingresa a nuestro sitio personalizado</small>
+					</blockquote>
+	    		</div>
+	    		<br class="visible-xs" >
+	    		<div class="col-xs-6"> 
+					<a href="../administrador/panel_administrativo.php"> <h5> Administrador </h5> </a>
+		        	<a href=""> <h5> Cliente </h5> </a>
+				</div>
+        	</div>
+      	</div>
+      	<div class="container-fluid socomtec">
+      		<div class="container hidden-xs">
+        		<h5 class="col-sm-9">© 2016 Socomtec. Diseñado por <a href="http://www.socomtec.cl"> SOCOMTEC LTDA </a> </h5>
+        		<i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+        		<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        		<i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+       		</div>
+       		<div class="container visible-xs text-center">
+        		<h5 class="col-sm-9">© 2016 Socomtec. 
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+        			&nbsp;<i class="fa fa-twitter" aria-hidden="true"></i>
+        			&nbsp;<i class="fa fa-instagram" aria-hidden="true"></i>
+        		</h5>
+        		<h6> Diseñado por <a href="http://www.socomtec.cl"> SOCOMTEC LTDA </a> </h6>
+       		</div>
+       	</div>
       <!-- fin footer -->
 </footer>
 <script>
